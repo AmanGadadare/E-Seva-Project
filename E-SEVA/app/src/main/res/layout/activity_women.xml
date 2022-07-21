@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".women"
+    android:orientation="vertical"
+    android:background="#D8D4D4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Service for women"
+            android:textColor="#15289B"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="138dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="115dp"
+                android:layout_gravity="center"
+                android:src="@drawable/women2" />
+        </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="244dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="231dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="110dp"
+
+                    android:text="            Sweat for health, or sweat it out for a cause! Be a part of the Marathons in the city of Mumbai and Thane, and get yourself involved in one of the most sought after sport of today.  "
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="              So, just tie your laces tight and begin bracing up for the runathon challenges in your city. Register now on Townscript and get yourself running!!!!!!!         "
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/c1"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_margin="20dp"
+
+                app:cardBackgroundColor="#E0D670"
+                app:cardCornerRadius="8dp"
+                app:cardMaxElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="51dp"
+                        android:layout_marginTop="25dp"
+                        android:src="@drawable/edp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Entrepreneurship
+
+Training"
+                        android:textAlignment="center"
+                        android:textColor="#2A3FA0"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/c2"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_margin="20dp"
+
+                app:cardBackgroundColor="#BE4A41"
+                app:cardCornerRadius="8dp"
+                app:cardMaxElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="51dp"
+                        android:layout_marginTop="25dp"
+                        android:src="@drawable/su" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Sexual Harssment"
+                        android:textAlignment="center"
+                        android:textColor="#2A3FA0"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/c3"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_margin="20dp"
+
+                app:cardBackgroundColor="#BE4A41"
+                app:cardCornerRadius="8dp"
+                app:cardMaxElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="51dp"
+                        android:layout_marginTop="25dp"
+                        android:src="@drawable/sbi" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Sukanya Yojana"
+                        android:textAlignment="center"
+                        android:textColor="#2A3FA0"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/c4"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_margin="20dp"
+
+                app:cardBackgroundColor="#E0D670"
+                app:cardCornerRadius="8dp"
+                app:cardMaxElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="51dp"
+                        android:layout_marginTop="25dp"
+                        android:src="@drawable/emes" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Schemes"
+                        android:textAlignment="center"
+                        android:textColor="#152BB1"
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

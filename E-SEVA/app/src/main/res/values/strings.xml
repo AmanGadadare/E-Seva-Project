@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">E-SEVA</string>
+    <string name="title_activity_home__screen">Home_Screen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">My Bmc</string>
+    <string name="menu_gallery">Pothole</string>
+    <string name="menu_slideshow">Sign Out</string>
+    <string name="menu_send">About Us</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_screen">home_screen</string>
+    <string name="title_activity_home_screenn">home_screenn</string>
+    <string-array name="complaints_types">
+        <item>Road</item>
+        <item>Drainage</item>
+        <item>Pollution</item>
+        <item>Water Shortage</item>
+
+    </string-array>
+    <string-array name="Area_from" >
+
+        <item>Malad Station</item>
+        <item>Chincholi Bunder Road</item>
+        <item>Malvani</item>
+        <item>Marve Road</item>
+        <item>Gen.Vaidya Marg</item>
+        <item>Kurar Village(East)</item>
+        <item>Madh(West)</item>
+        <item>Goregoan</item>
+        <item>Oshiwara</item>
+        <item>Dahisar</item>
+        <item>Poisar Depot</item>
+        <item>Dhaisar Check Naka</item>
+        <item>Thankur Complex</item>
+        <item>Thakur Village</item>
+        <item>Lokhandwala Complex</item>
+        <item>Patel nagar</item>
+        <item>MG Road Kandivali</item>
+        <item>Mathuradas Road</item>
+        <item>Damupada</item>
+        <item>Charkop Khade</item>
+        <item>Hanuman Nagar</item>
+        <item>Poisar River</item>
+        <item>Mahavir Nagar</item>
+        <item>Miiltary Road</item>
+        <item>Lala Lajapatrai Road</item>
+        <item>Khajura Talov Road</item>
+        <item>Ganesh Nagar</item>
+        <item>FCI</item>
+        <item>Samata Nagar</item>
+        <item>Kandivali Fire Station</item>
+
+    </string-array>
+
+</resources>

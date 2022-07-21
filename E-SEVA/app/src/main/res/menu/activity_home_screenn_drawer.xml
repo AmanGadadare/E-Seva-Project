@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="More Appps"></item>
+        <item
+            android:id="@+id/myBMC"
+            android:icon="@drawable/bmc_icon"
+            android:title="My Bmc "
+            android:textColor="#192A8B" />
+        <item
+            android:id="@+id/pothole"
+            android:icon="@drawable/bmc_icon"
+            android:title="MyBMC pothole Fixit"
+            android:textColor="#192A8B"/>
+
+        <item
+            android:id="@+id/kyc"
+            android:icon="@drawable/bmc_icon"
+            android:title="Mumbai KYC"
+            android:textColor="#192A8B"/>
+        <item
+            android:id="@+id/mcgm"
+            android:icon="@drawable/bmc_icon"
+            android:title="MCGM Development Plan"
+            android:textColor="#192A8B"/>
+    </group>
+
+    <item android:title="About">
+        <menu>
+
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about_us"
+                android:title="@string/menu_send"
+                android:textColor="#192A8B"
+                />
+
+        </menu>
+    </item>
+
+</menu>

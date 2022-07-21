@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.e_seva">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".echo_form_pdf"/>
+        <activity android:name=".echo_criteria_pdf" />
+        <activity android:name=".echo_house_pdf" />
+        <activity android:name=".echo_housing" />
+        <activity android:name=".svgc_pdf" />
+        <activity android:name=".safe_pdf" />
+        <activity android:name=".policy" />
+        <activity android:name=".edp_training" />
+        <activity android:name=".harasment" />
+        <activity android:name=".corporator_info" />
+        <activity android:name=".Marathon" />
+        <activity android:name=".blood_donation" />
+        <activity android:name=".about_us" />
+        <activity android:name=".Envvironment" />
+        <activity android:name=".Recruitment" />
+        <activity android:name=".women" />
+        <activity android:name=".events" />
+        <activity android:name=".complaint"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".home_screenn"
+            android:label="E-SEVA"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".forgot_pass"
+            android:parentActivityName=".Sign_in"/>
+        <activity android:name=".Sign_up"
+            />
+        <activity android:name=".Sign_in"
+            />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_in"
+    android:orientation="vertical"
+    android:background="@drawable/toolbar_back"
+    android:padding="10dp">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/b1"
+        android:layout_width="344dp"
+        android:layout_height="456dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:padding="50dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="25dp">
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+
+            android:layout_marginTop="27dp"
+
+            android:src="@drawable/us" />
+
+        <TextView
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="85dp"
+            android:text="Sign In"
+            android:textAlignment="center"
+            android:textColor="#0B88E4"
+            android:textSize="29sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/signinemailtxt"
+            android:layout_width="275dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="140dp"
+
+            android:drawableLeft="@drawable/ic_action_name3"
+            android:hint="   Enter Email Address">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/signinpasswordtxt"
+            android:layout_width="275dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="215dp"
+
+            android:drawableLeft="@drawable/ic_action_name"
+            android:hint="  Enter password">
+
+
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/forgotpassword"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="260dp"
+            android:text="Forgot Password?"
+            android:textAlignment="center"
+            android:textColor="#2037EC"
+
+            android:textSize="15sp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/signinbutton"
+            android:layout_width="276dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="77dp"
+            android:background="#380F83"
+            app:cardBackgroundColor="#2037EC"
+            app:cardCornerRadius="20dp">
+
+
+            <TextView
+                android:layout_width="261dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="6dp"
+                android:text="Sign In "
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ProgressBar
+                android:id="@+id/signinprogress"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:outlineSpotShadowColor="@color/cardview_dark_background"
+                android:layout_marginLeft="115dp"
+                android:visibility="invisible"
+                />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/googlesignin"
+            android:layout_width="280dp"
+            android:layout_height="43dp"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="135dp"
+            android:background="#F01A0A"
+            app:cardBackgroundColor="#FA3E35"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/go" />
+
+
+            <TextView
+                android:layout_width="174dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="5dp"
+                android:text="Sign In with Google"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/id6"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="389dp"
+            android:text="Already have account?"
+            android:textAlignment="center"
+            android:textColor="#161414"
+
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/signuptxt"
+            android:layout_width="116dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="389dp"
+            android:text="   Sign Up"
+            android:textAlignment="center"
+            android:textColor="#2037EC"
+
+            android:textSize="17sp" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

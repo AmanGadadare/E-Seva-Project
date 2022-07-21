@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".blood_donation"
+        android:orientation="vertical"
+        android:background="#D8D4D4"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+
+            android:padding="18dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="743dp"
+                    android:orientation="vertical"
+                    android:padding="18dp">
+
+                    <ImageView
+                        android:layout_width="382dp"
+                        android:layout_height="175dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/marath" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Mumbai Marathon"
+                        android:textAlignment="center"
+                        android:textColor="#1C35C5"
+                        android:textSize="35sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="432dp"
+
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="168dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Date:- 19/2/2020"
+                            android:textColor="#000000"
+                            android:textSize="19sp" />
+
+                        <TextView
+                            android:layout_width="239dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+                            android:text="Organizer:- TATA pvt ltd "
+                            android:textColor="#000000"
+                            android:textSize="19sp" />
+
+
+                        <TextView
+                            android:layout_width="339dp"
+                            android:layout_height="wrap_content"
+                            android:text="Venue:- Thakur College  "
+                            android:textColor="#000000"
+                            android:textSize="19sp" />
+
+                        <TextView
+                            android:layout_width="339dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="50dp"
+                            android:text="    S.G. road Thakur Village "
+                            android:textColor="#000000"
+                            android:textSize="19sp" />
+
+                        <TextView
+                            android:layout_width="339dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="50dp"
+                            android:text="    Dahisar East 400604  "
+                            android:textColor="#000000"
+                            android:textSize="19sp" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="313dp"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="110dp"
+
+                                android:text="            Sweat for health, or sweat it out for a cause! Be a part of the Marathons in the city of Mumbai and Thane, and get yourself involved in one of the most sought after sport of today.  "
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="              So, just tie your laces tight and begin bracing up for the runathon challenges in your city. Register now on Townscript and get yourself running!!!!!!!         "
+                                android:textColor="#000000"
+                                android:textSize="18sp" />
+
+
+                            <Button
+                                android:id="@+id/know"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="20dp"
+                                android:background="#1333EB"
+                                android:text="Know more"
+                                android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

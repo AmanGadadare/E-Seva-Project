@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".events"
+    android:orientation="vertical"
+    android:background="#D8D4D4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="746dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Upcomimg Events"
+            android:textColor="#1B329C"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/eventlink"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Events after 15 march gets Cancelled due to Corona Virus...click to get more info'"
+            android:textAlignment="center"
+            android:textColor="#031257"
+            android:textSize="15sp"
+
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/blodd"
+            android:layout_width="match_parent"
+            android:layout_height="227dp"
+            android:layout_marginTop="35dp"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="89dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/blood" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Blood Donation Camp"
+                    android:textColor="#112596"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="339dp"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="168dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Date:- 12/3/2020"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="339dp"
+                        android:layout_height="wrap_content"
+                        android:text="Venue:- Sanjog Society hall "
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="339dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text=" Ashok van  "
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="339dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text=" Dahisar East 400604  "
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/marath"
+            android:layout_width="match_parent"
+            android:layout_height="236dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="84dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/marath" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Mumbai Marathon"
+                    android:textColor="#112596"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="339dp"
+                    android:layout_height="93dp"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="168dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Date:- 9/3/2020"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="339dp"
+                        android:layout_height="wrap_content"
+                        android:text="Venue:- Thakur college "
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="312dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text=" S.G.road Thakur Village "
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="339dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text=" Dahisar East 400604  "
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</LinearLayout>

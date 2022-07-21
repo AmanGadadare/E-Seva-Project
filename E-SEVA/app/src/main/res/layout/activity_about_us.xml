@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_us"
+    android:background="#E4DBDB"
+    android:orientation="vertical">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:padding="15dp">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:fontFamily="sans-serif-black"
+             android:text="About Us"
+             android:textColor="#1B329C"
+             android:textSize="30sp" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="22dp"
+             android:orientation="horizontal"
+             android:padding="10dp">
+
+             <ImageView
+                 android:layout_width="123dp"
+                 android:layout_height="109dp"
+                 android:src="@drawable/splash" />
+
+             <ImageView
+                 android:layout_width="123dp"
+                 android:layout_height="109dp"
+                 android:layout_marginLeft="48dp"
+                 android:src="@drawable/bmc" />
+
+
+         </LinearLayout>
+
+         <android.support.v7.widget.CardView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             app:cardCornerRadius="10dp">
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="25dp">
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="This app is developed to solvve the day to day life problems of citizen.The main moto of this app is to decrease the gap between corporator and normal citizen."
+                     android:textSize="18sp" />
+
+
+             </LinearLayout>
+
+
+         </android.support.v7.widget.CardView>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:fontFamily="sans-serif-black"
+             android:text="Developed and  Designed By-"
+             android:textColor="#1B329C"
+             android:textSize="25sp" />
+
+         <android.support.v7.widget.CardView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             app:cardCornerRadius="10dp">
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+                 android:padding="25dp">
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="This app is developed and designed by Students of computer Engineering dept.of"
+                     android:textSize="18sp" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Government Polytechnic Mumbai."
+                     android:textSize="18sp" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="10dp"
+                     android:text="1)Amod Aher (SS17CO005)"
+                     android:textColor="#333131"
+                     android:textSize="18sp" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="10dp"
+                     android:text="2)Aman Gadadare (SS17CO006)"
+                     android:textColor="#333131"
+                     android:textSize="18sp" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="10dp"
+                     android:text="3)Shreyas Lokhande(SS17CO009)"
+                     android:textColor="#333131"
+                     android:textSize="18sp" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="10dp"
+                     android:text="4)Prathamesh Adake(SS17CO015)"
+                     android:textColor="#333131"
+                     android:textSize="18sp" />
+             </LinearLayout>
+         </android.support.v7.widget.CardView>
+     </LinearLayout>
+</LinearLayout>
+    </ScrollView>

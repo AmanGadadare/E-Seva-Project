@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blood_donation"
+    android:orientation="vertical"
+    android:background="#D8D4D4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="693dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+
+        android:padding="15dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="628dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="656dp"
+                android:orientation="vertical"
+                android:padding="18dp">
+
+                <ImageView
+                    android:layout_width="382dp"
+                    android:layout_height="175dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/donar" />
+
+                <TextView
+                    android:layout_width="368dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Blood Donation Camp"
+                    android:textAlignment="center"
+                    android:textColor="#112596"
+                    android:textSize="30sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="401dp"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="168dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Date:- 12/4/2020"
+                        android:textColor="#000000"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:layout_width="331dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Organizer:-Swastik Mitra Mandal "
+                        android:textColor="#000000"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:layout_width="339dp"
+                        android:layout_height="wrap_content"
+                        android:text="Venue:- Sanjog Society hall "
+                        android:textColor="#000000"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:layout_width="339dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="   Ashok van "
+                        android:textColor="#000000"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:layout_width="339dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="    Dahisar East 400604  "
+                        android:textColor="#000000"
+                        android:textSize="19sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="           Donating blood is a righteous activity that can save the lives of many people. A social duty of all individuals, blood donation is above all casts and religions. We support this cause and seek contribution of the people for promoting blood donation camps.  "
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/bt1"
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:background="#1333EB"
+                            android:text="Know more"
+                            android:textColor="#ffffff" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
